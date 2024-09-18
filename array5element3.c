@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int a[5]={78,90,'A',56,'a'};
-    //A and a are is a character  & print as ASCII value character
+    int a[5]={78,90,34};
+    //initializing array with 3 elements
+    //rest of the elements will be 0 by default
     int i;
     for(i=0;i<5;i++)
     {
